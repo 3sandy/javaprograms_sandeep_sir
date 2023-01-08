@@ -1,26 +1,30 @@
 package String_programs;
 
-public class count {
+public class Print_the_character {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+
+		
 		String s="TestYantra";
 		char[] ch=s.toCharArray();
-		
-		int count1=0;
-		int count2=0;
-		
 		for(int i=0;i<ch.length;i++)
 		{
-			if(ch[i]=='a')
-			{
-				count1 ++;
-			}
-			else(ch[i]=='e')
-			{
-				count2 ++;
-			}
+			System.out.println(ch[i]);
 		}
-	}
+				for(int i=0;i<s.length();i++)
+		{
+			System.out.println(s.charAt(i));
+		}
+		
+	
+		
+		
+		
+		
+		
 
-}
+		
+		
+
+	}}

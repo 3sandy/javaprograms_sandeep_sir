@@ -25,7 +25,6 @@ public class Rotation_or_key_progrm {
 			System.out.println(a[i]+" ");
 		}
 		
-				
 	}
 
 }

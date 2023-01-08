@@ -33,7 +33,7 @@ public class Array_list {
 		
 	//	boolean re=a.removeAll(l);//remove all the objects present in the array list
 	
-		boolean re=a.retainAll(i);//retainAll will retains whicha are similar
+		boolean re=a.retainAll(l);//retainAll will retains whicha are similar
 		System.out.println(re);
 		
 		ArrayList a2=new ArrayList ();

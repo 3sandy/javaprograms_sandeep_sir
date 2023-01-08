@@ -17,11 +17,17 @@ public class minimum_word_length {
 			String word=sp[i];
 			int min=word.length();
 			
-			if(sp[i+1].length()<min) {
+			if(sp[i+1].length()<min) 
+			{
 				minword=sp[i+1];
 			}
+			
 		}
-System.out.println(minword+"="+minword.length());
+
+		
+		System.out.println(minword+"="+minword.length());
+
+
 	}
 
 }

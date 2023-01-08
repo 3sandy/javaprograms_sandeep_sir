@@ -5,39 +5,61 @@ public class Swapping_a_c {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String s="a%@hc&jf";
+		String s="a*b#%_z*c$";
+		
 		char ch[]=s.toCharArray();
+		int left=0;
+		int right=ch.length-1;
+		
+		
+		
+		
+//		for (int i = 0; i < ch.length; i++) {
+//			
+//			if(i==0 || i==4) 
+//			{
+//				char temp=ch[left];
+//				ch[left]=ch[right];
+//				ch[right]=temp;
+//			}
+//		}
+		
+		
 		
 		
 		for(int i=0;i<ch.length;i++)
 		{
 			
-			if(ch[i]=='a')
+			if(ch[left]>='a' && ch[left]<='z')
 			{
-				ch[i]='c';
+				if(ch[right]>='a' && ch[right]<='z')
+				
+				{
+				
+			if(left<right)//check with inde value
+			{
+				char temp=ch[left];
+				ch[left]=ch[right];
+				ch[right]=temp;
+				left++;
+				right--;
 				
 			}
-				
-				for(int j=0;j<s.length();j++)
-
-				{
-					
-					if(ch[j]=='')
-					{
-						
-						ch[j]='a';
-					}
+						}
+				else {
+				right--;
 				}
 			
+		}
+			else {
+				left++;
 			}
 			
 			
-		}
+	}
+
 		for(int i=0;i<ch.length;i++)
 		{
 			System.out.print(ch[i]);
 		}
-		
-	}
-
-}
+}}

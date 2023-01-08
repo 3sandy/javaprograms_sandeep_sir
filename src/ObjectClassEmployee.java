@@ -15,7 +15,7 @@ public class ObjectClassEmployee {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		ObjectClassEmployee a =new ObjectClassEmployee("")
+	//	ObjectClassEmployee a =new ObjectClassEmployee("")
 		
 		
 	}

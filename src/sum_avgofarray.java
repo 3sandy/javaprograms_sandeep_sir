@@ -16,6 +16,7 @@ public class sum_avgofarray {
 		System.out.println("The sum of array is "+sum);
 				avg=sum/a.length;
 				System.out.println("The avg of array is"+avg);
+				
 	}
 
 }

@@ -19,6 +19,7 @@ public class Upend01 {
 			else
 			{
 				b[end]=a[i];
+				
 				end--;
 			}
 			

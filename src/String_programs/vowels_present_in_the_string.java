@@ -5,17 +5,19 @@ public class vowels_present_in_the_string {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String s="TestYantra";
-		String s1=s.toLowerCase();
+		String s="TestYantra sdet-10 hyderabad";
 		
-		for(int i=0;i<s1.length();i++)
+		char [] ch=s.toCharArray();
+		int count =0;
+		for(int i=0;i<ch.length;i++)
 		{
-			if(s1.charAt(i)=='a'||s1.charAt(i)=='e'||s1.charAt(i)=='i'||s1.charAt(i)=='o'||s1.charAt(i)=='u')
+			if(ch[i]=='a'||ch[i]=='e'||ch[i]=='i'||ch[i]=='o'||ch[i]=='u')
 			{
-			System.out.println(s1.charAt(i));
+			count++;
 			}
 		}
 		
+		System.out.println(count);
 		
 	}
 

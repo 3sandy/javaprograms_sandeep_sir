@@ -1,25 +1,25 @@
 package Collection_programs;
+
+import java.util.ArrayList;
 import java.util.LinkedHashSet;
 
-public class Collection_programs {
+public class Count_of_String {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		String s="india";
 		
-		String s="abcdabcdabcdabcd";
+		LinkedHashSet l=new LinkedHashSet();
 		
-		char s1[]=s.toCharArray();
-		
-		LinkedHashSet<Character> b=new LinkedHashSet<>();
-		for(int i=0;i<s1.length;i++)
+		for(int i=0;i<s.length();i++)
 		{
-			b.add(s1[i]);
+			l.add(s.charAt(i));
 		}
 		
-		System.out.println(b);
+		System.out.println(l);
 		
-		for(Character list:b)
+		for(Object list:l)
 		{
 			int count=0;
 			for(int i=0;i<s.length();i++)
@@ -29,13 +29,15 @@ public class Collection_programs {
 					count ++;
 				}
 				
-			}
-			if(count>1)
+		}
+			
+			if(count<2)
 			{
 			System.out.println(list+"="+count);
 		}
 		
 		
 	}
-	}}
+	
 
+}}

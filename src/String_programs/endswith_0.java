@@ -23,6 +23,8 @@ public class endswith_0 {
 			{				
 				System.out.println(s2);	
 				}
+			
+				
 		}
 		
 	}

@@ -1,7 +1,7 @@
 package Collection_programs;
 import java.util.LinkedHashSet;
 
-public class Collection_prog_2 {
+public class Vowels_in_String {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -10,11 +10,12 @@ public class Collection_prog_2 {
 		int vowelcount=0;
 		char s1[]=s.toCharArray();
 		
-		LinkedHashSet<Character> b=new LinkedHashSet<>();
+		LinkedHashSet<Character> b=new LinkedHashSet ();
 		for(int i=0;i<s1.length;i++)
 		{
 			b.add(s1[i]);
 		}
+		
 		
 		System.out.println(b);
 		
@@ -28,6 +29,7 @@ public class Collection_prog_2 {
 				
 			
 		}
+		
 		System.out.println(s+" "+vowelcount);
 
 	}
